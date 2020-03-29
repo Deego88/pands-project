@@ -1,21 +1,21 @@
-**Programming and Scripting Project 2020, Iris Data Set**
+# Programming and Scripting Project 2020, Iris Data Set
 
-**G00387896 Richard Deegan**
+# G00387896 Richard Deegan
 
-# Table of Contents
+## Table of Contents
 
- **Problem Statement**
+ ## Problem Statement
 
- **Introduction**
+ ## Introduction
   
- **Libraries**
+ ## Libraries
 
  
- **Results**
+ ## Results
   
- **Summary and Conclusion of data set**
+ ## Summary and Conclusion of data set
   
- **References**
+ ## References
   
    
   
