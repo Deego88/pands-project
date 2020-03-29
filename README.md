@@ -2,13 +2,13 @@
 
 **G00387896 Richard Deegan**
 
-**#Table of Contents**
+#Table of Contents
 
  **Problem Statement**
 
  **Introduction**
   
- **Libraries*
+ **Libraries**
 
  
  **Results**
