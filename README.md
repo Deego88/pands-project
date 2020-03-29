@@ -8,13 +8,13 @@
 
 ## [Problem Statement](https://github.com/Deego88/pands-project/blob/master/README.md#problemstatement) 
 
-## Libraries
+## [Libraries](https://github.com/Deego88/pands-project/blob/master/README.md#libraries-1)
 
-## Results
+## [Results](https://github.com/Deego88/pands-project/blob/master/README.md#results-1)
   
-## Summary and Conclusion of Data Set
+## [Summary and Conclusion of Data Set](https://github.com/Deego88/pands-project/blob/master/README.md#summary-and-conclusion-of-data-set-1)
   
-## References
+## [References](https://github.com/Deego88/pands-project/blob/master/README.md#references-1)
   
   
 ## Introduction
