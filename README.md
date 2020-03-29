@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
- ## Problem Statement 
+ ## [Problem Statement](Problem-Statement) 
 
  ## Introduction
   
@@ -20,7 +20,7 @@
    
   
   
- ## [Problem Statement](Problem-Statement)
+ ## Problem-Statement
  
 This project will conduct an analysis of the Iris data set. As part of this analysis the project will utilise python code. Detailed explanations of the python code for the user will be provided; specifically, on the journey of analysing a data set with Python. This project will create a program that:
 
