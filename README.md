@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-## Introduction
+## [Introduction](https://github.com/Deego88/pands-project/blob/master/README.md#introduction-1)
 
 ## [Problem Statement](https://github.com/Deego88/pands-project/blob/master/README.md#problemstatement) 
 
