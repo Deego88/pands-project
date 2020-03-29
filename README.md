@@ -1,23 +1,23 @@
-**Programming and Scripting Project 2020, Iris Data Set
+**Programming and Scripting Project 2020, Iris Data Set**
 
-**G00387896 Richard Deegan
+**G00387896 Richard Deegan**
 
-**Table of Contents
+**Table of Contents**
 
- **Introduction
+ **Introduction**
   
- **Problem statement
+ **Problem statement**
   
- **Results
+ **Results**
   
- **Summary and Conclusion of data set
+ **Summary and Conclusion of data set**
   
- **References
+ **References**
   
    
   
   
- **Problem statement
+ **Problem statement**
  
 This project will conduct an analysis of the Iris data set. As part of this analysis the project will utilise python code. Detailed explanations of the python code for the user will be provided; specifically, on the journey of analysing a data set with Python. This project will create a program that:
   • outputs a summary of each variable to a single text file,
