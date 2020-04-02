@@ -8,12 +8,47 @@ import seaborn as sns
 # Read Iris CSV file to into the Pandas DataFrame
 iris = pd.read_csv("iris.csv")
 
-# create variables head and tail, initial look at data set 1st 10 and last 10 lines.
+# create variables and print to screen, initial look at data set. 
 head = iris.head()
 tail = iris.tail()
+describe = iris.describe()
+mean = iris.mean()
 
+#print to screen, stastics for initial observations. Describe function is very useful in this regard.  
 print ("the first ten lines of the iris data set are:", head)
 print ("the last ten lines of the iris data set are:", tail)
+print ("a description of the iris data set:", describe)
+print ("The mean of the iris data set is:", mean)
+
+#Histogram for Sepal length variable 1
+plt.figure(figsize = (10, 7)) 
+x = data ["SepalLengthCm"] 
+  
+plt.hist(x, bins = 15, color = "blue") 
+plt.title("Sepal Length in cm") 
+plt.xlabel("Sepal_Length_cm") 
+plt.ylabel("Count") 
+
+plt.show()
+
+#Histogram for Sepal width variable 2
+plt.figure(figsize = (10, 7)) 
+x = data.SepalWidthCm 
+  
+plt.hist(x, bins = 15, color = "blue") 
+plt.title("Sepal Width in cm") 
+plt.xlabel("Sepal_Width_cm") 
+plt.ylabel("Count") 
+  
+plt.show() 
+
+#Histogram for Petal length variable 3
+
+
+
+
+
+
 
 # references:
 # 1. Python Pandas read_csv – Load Data from CSV Files, https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/
