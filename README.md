@@ -75,6 +75,10 @@ In order to conduct an effective analysis of the the Iris data set you must have
 
 ## Results
 
+![Scatter Pair Plot Output](https://github.com/Deego88/pands-project/blob/master/Iris%20Scatter%20Pair%20Plot%20Output.png)
+
+![Histogram Output](https://github.com/Deego88/pands-project/blob/master/Iris%20Histogram%20Output.PNG)
+
 ## Summary and Conclusion of Data Set
 
 ## References
