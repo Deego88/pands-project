@@ -19,14 +19,29 @@
   
 ## Introduction
   
-The iris dataset was first introduced by Ronald Fisher in 1936 in his paper "The Use of Multiple Measurements in Taxonomic Problems"  Essentially the Iris data set contains the following data:
+The purpose of this project is to conduct an exploratory data analysis of the Iris data set. This project forms part of the Programing and Scripting module assessment for GMITs Data Analytics higher Diploma course. The full set of project deliverables, instructions and grading criteria can be found [here.]( )
 
-50 samples of 3 different species of iris (150 total); 
+The iris dataset was first introduced by Ronald Fisher in 1936 in his paper "The Use of Multiple Measurements in Taxonomic Problems". 
+Ronald Fisher was a British statistician who made impressive strides in the field of modern statistical science.  The Iris data set is well known throughout the world of statistics and is commonly utilised for exploratory data analysis. The Iris  data set is sometimes referred to as the Anderson’s Iris data set, simply because Edgar Anderson was the individual who collected the data on the Iris flowers which was subsequently used. Essentially the Iris data set contains the following data:
 
-Types of Species: the Iris Setosa, the Iris Versicolor and the Iris Virginic;
+The data set contains the following:
 
-Four measurements of each species: sepal length, sepal width, petal length, petal width.
+•	Three types of Species: 
+1. The Iris Setosa.
+2. The Iris Versicolor. 
+3. The Iris Virginic.
 
+•	Four measurements of each species:
+
+1. Sepal length.
+2. Sepal width.
+3. Petal length. 
+4. Petal width.
+
+•	Fifty samples of Iris flower from each species (150 total). 
+
+The flowers are measured in centimetres of four columns, the fifth column details the species type. The data for the Iris data set is extracted from a CSV, this data set is plentiful and readily available on multiple sources on the internet. For example, the raw CSV Irish data set can be found [here](https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/639388c2cbc2120a14dcf466e85730eb8be498bb/iris.csv
+). 
 
  ## Problem Statement
  
@@ -46,10 +61,13 @@ This project will conduct an analysis of the Iris data set. As part of this anal
  1. pandas- pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
  2. numpy- provides a high-performance multidimensional array object, and tools for working with these arrays.
  3. matplotlib- is a plotting library and allows for the production of graphs, plots and charts. 
+ 4. seaborn- is a Python data visualisation library based on matplotlib, it provides a high-level interface for graphics.
  
 ## Getting Started
 
-In order to conduct an effective analysis of the the Iris data set you must have the three libraries installed as listed above. The Iris data set must be in a CSV type flie format and located in the same directory as the python code. Please ensure that you have the origional version of the Iris data set.  
+In order to conduct an effective analysis of the the Iris data set you must have the relevant libraries installed as listed above. The Iris data set must be in a CSV type flie format and located in the same directory as the python code. Please ensure that you have the origional version of the Iris data set, otherwise some data cleaning may be required.   
+
+## Data Analysis 
 
 ## Results
 
@@ -59,3 +77,5 @@ In order to conduct an effective analysis of the the Iris data set you must have
  
 1. UCI Machine Learning Repository – Iris Data Set, http://archive.ics.uci.edu/ml/datasets/Iris
 2. Iris Data Set, https://www.ritchieng.com/machine-learning-iris-dataset/
+3. Basic Analysis of the Iris Data set Using Python, https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+4. Ronald Fischer, https://en.wikipedia.org/wiki/Ronald_Fisher
