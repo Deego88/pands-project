@@ -22,7 +22,11 @@
 The purpose of this project is to conduct an exploratory data analysis of the Iris data set. This project forms part of the Programing and Scripting module assessment for GMITs Data Analytics higher Diploma course. The full set of project deliverables, instructions and grading criteria can be found [here.]( )
 
 The iris dataset was first introduced by Ronald Fisher in 1936 in his paper "The Use of Multiple Measurements in Taxonomic Problems". 
-Ronald Fisher was a British statistician who made impressive strides in the field of modern statistical science.  The Iris data set is well known throughout the world of statistics and is commonly utilised for exploratory data analysis. The Iris  data set is sometimes referred to as the Anderson’s Iris data set, simply because Edgar Anderson was the individual who collected the data on the Iris flowers which was subsequently used. Essentially the Iris data set contains the following data:
+Ronald Fisher was a British statistician who made impressive strides in the field of modern statistical science.  The Iris data set is well known throughout the world of statistics and is commonly utilised for exploratory data analysis. The Iris  data set is sometimes referred to as the Anderson’s Iris data set, simply because Edgar Anderson was the individual who collected the data on the Iris flowers which was subsequently used. 
+
+![](pands-project/03_iris.png)
+
+Essentially the Iris data set contains the following data:
 
 The data set contains the following:
 
