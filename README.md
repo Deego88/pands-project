@@ -71,11 +71,7 @@ This project will conduct an analysis of the Iris data set. As part of this anal
 
 In order to conduct an effective analysis of the the Iris data set you must have the relevant libraries installed as listed above. The Iris data set must be in a CSV type flie format and located in the same directory as the python code. Please ensure that you have the origional version of the Iris data set, otherwise some data cleaning may be required.   
 
-## Data Analysis 
-
 ## Results
-
-
 
 ![Histogram Output](https://github.com/Deego88/pands-project/blob/master/Iris%20Histogram%20Output.PNG)
 
@@ -85,9 +81,29 @@ The seaborn plot "pairplot", shows the bivariate relation between each pair of f
 
 ## Summary and Conclusion of Data Set
 
+In summary, the Iris data set contains three species of flower; Setosa, Versicolor and Virginica. Also contained in this data set are four variable measurements; Petal length and width, Sepal length and width. Each species of flower tends to conform to certain parameters within the measurements. It is therefore possible to predict which specie type a flower is based on the measurements. For example, if a species has short sepal (4.4 – 5.8cm), short petals (1.2 - 4.4cm) and narrow petals (0.1 - 4.4cm) it is most likely a Setosa, if a species has a long sepal approx. (4.4 - 7.9cm), long petals (4.4 - 6.9cm), and wide petals (1.3- 2.5cm) it is most likely a Virginica. Consequently, any species that resides between these two is most likely to be a Versicolor. 
+Note: long is median to max values and short median to min values. 
+
+From this data analysis we can make various observations. For example, if we consider the petal length, we can see that it has a large standard deviation (1.74) in data and a large variance (3.03), a large variance in data points gives rise to a highly defined graph with little overlap and a clear distribution. Furthermore, if we consider the sepal width standard deviation of (0.42) and the variance of (0.17) it would explain why the sepal width graph overlaps and displays clustered points close to the mean with little variance. Therefore, sepal width is not a desirable measurement to consider when trying to categorise the species into their types based off the data measurements.  
+
+
 ## References
  
 1. UCI Machine Learning Repository – Iris Data Set, http://archive.ics.uci.edu/ml/datasets/Iris
 2. Iris Data Set, https://www.ritchieng.com/machine-learning-iris-dataset/
 3. Basic Analysis of the Iris Data set Using Python, https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 4. Ronald Fischer, https://en.wikipedia.org/wiki/Ronald_Fisher
+5. Data science, Startups, Analytics, and Data visualisation, https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+6. Matplotlib Tutorial Histograms,https://www.youtube.com/watch?v=r75BPh1uk38
+7. Intro to Data Analysis / Visualization with Python, Matplotlib and Pandas | Matplotlib Tutorial, https://www.youtube.com/watch?v=a9UrKTVEeZA&t=747s
+8 Python Pandas read_csv – Load Data from CSV Files, https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/
+9. Data Science with Python: Intro to Loading, Subsetting, and Filtering Data with pandas https://towardsdatascience.com/data-science-with-python-intro-to-loading-and-subsetting-data-with-pandas-9f26895ddd7f
+10. Aggregations, Min, Max, and Everything In Between,https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html
+11. Box plot and Histogram exploration on Iris data, https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/.
+12. Matplotlib Histogram, https://pythonspot.com/matplotlib-histogram/
+13. seaborn.scatterplot, https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+
+
+
+
+
