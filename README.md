@@ -92,6 +92,7 @@ From this data analysis we can make various observations. For example, if we con
 1. UCI Machine Learning Repository – Iris Data Set, http://archive.ics.uci.edu/ml/datasets/Iris
 2. Iris Data Set, https://www.ritchieng.com/machine-learning-iris-dataset/
 3. Basic Analysis of the Iris Data set Using Python, https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+4. Statistical Analysis of the Iris Flower Dataset, http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 4. Ronald Fischer, https://en.wikipedia.org/wiki/Ronald_Fisher
 5. Data science, Startups, Analytics, and Data visualisation, https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
 6. Matplotlib Tutorial Histograms,https://www.youtube.com/watch?v=r75BPh1uk38
