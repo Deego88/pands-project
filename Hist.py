@@ -18,6 +18,8 @@ plt.hist(setosa1)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Setosa Sepal Length")
+
+plt.savefig("Setosa Sepal Length.png", dpi=72,)
 plt.show()
 
 setosa2 = setosa.sepal_width
@@ -25,6 +27,8 @@ plt.hist(setosa2)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Setosa Sepal Width")
+
+plt.savefig("Setosa Sepal Width.png", dpi=72,)
 plt.show()
 
 setosa3 = setosa.petal_length
@@ -32,6 +36,8 @@ plt.hist(setosa3)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Setosa Petal Length")
+
+plt.savefig("Setosa Sepal Length.png", dpi=72,)
 plt.show()
 
 setosa4 = setosa.petal_width
@@ -39,6 +45,8 @@ plt.hist(setosa4)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Setosa Petal Width")
+
+plt.savefig("Setosa Sepal Width.png", dpi=72,)
 plt.show()
 
 # Versicolor variables
@@ -47,6 +55,8 @@ plt.hist(versicolor1)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Versicolor Sepal Length")
+
+plt.savefig("Versicolor Sepal Length.png", dpi=72,)
 plt.show()
 
 versicolor2 = versicolor.sepal_width
@@ -54,6 +64,8 @@ plt.hist(versicolor2)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Versicolor Sepal Width")
+
+plt.savefig("Versicolor Sepal Width.png", dpi=72,)
 plt.show()
 
 versicolor3 = versicolor.petal_length
@@ -61,6 +73,8 @@ plt.hist(versicolor3)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Versicolor Petal Length")
+
+plt.savefig("Versicolor Petal Length.png", dpi=72,)
 plt.show()
 
 versicolor4 = versicolor.petal_width
@@ -68,6 +82,8 @@ plt.hist(versicolor4)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Versicolor Petal Width")
+
+plt.savefig("Versicolor Petal Width.png", dpi=72,)
 plt.show()
 
 # Virginica variables
@@ -76,6 +92,8 @@ plt.hist(virginica1)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Virginica Sepal Length")
+
+plt.savefig("Virginica Sepal Length.png", dpi=72,)
 plt.show()
 
 virginica2 = virginica.sepal_width
@@ -83,6 +101,8 @@ plt.hist(virginica2)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Virginica Sepal Width")
+
+plt.savefig("Virginica Sepal Width.png", dpi=72,)
 plt.show()
 
 virginica3 = virginica.petal_length
@@ -90,6 +110,8 @@ plt.hist(virginica3)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Virginica Petal Length")
+
+plt.savefig("Virginica Petal Length.png", dpi=72,)
 plt.show()
 
 virginica4 = virginica.petal_width
@@ -97,6 +119,8 @@ plt.hist(virginica4)
 plt.xlabel("Measurements in CM")
 plt.ylabel("Frequency of Occurrence")
 plt.title("Virginica Petal Width")
+
+plt.savefig("Virginica Petal Width.png", dpi=72,)
 plt.show()
 
 # References
