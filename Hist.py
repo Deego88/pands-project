@@ -1,21 +1,18 @@
 # Richard Deegan
 # Import Libraries 
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
-# First output required for project- Read iris CSV file to into DataFrame
+# Read Iris CSV file to into DataFrame and create Iris variable
 iris = pd.read_csv("iris.csv")
 
-#x = iris.sepal_length, 
-
-# use Boolean logic to select rows and columns
+# Create 3 species variables that Use Boolean logic to select relevant species row and column data
 setosa = iris.loc[iris["species"] == "setosa"]
 versicolor = iris.loc[iris["species"] == "versicolor"]
 virginica = iris.loc[iris["species"] == "virginica"]
-#sepal_length = iris.sepal_length
 
+# look at each species type under the four variables
+# Setosa variables
 setosa1 = setosa.sepal_length
 plt.hist(setosa1)
 plt.xlabel("Measurements in CM")
@@ -44,11 +41,66 @@ plt.ylabel("Frequency of Occurrence")
 plt.title("Setosa Petal Width")
 plt.show()
 
+# Versicolor variables
+versicolor1 = versicolor.sepal_length
+plt.hist(versicolor1)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Versicolor Sepal Length")
+plt.show()
 
+versicolor2 = versicolor.sepal_width
+plt.hist(versicolor2)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Versicolor Sepal Width")
+plt.show()
 
+versicolor3 = versicolor.petal_length
+plt.hist(versicolor3)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Versicolor Petal Length")
+plt.show()
 
-#print (versicolor)
-#print (virginica)
+versicolor4 = versicolor.petal_width
+plt.hist(versicolor4)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Versicolor Petal Width")
+plt.show()
 
-#References
-#Data science, Startups, Analytics, and Data visualisation, https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+# Virginica variables
+virginica1 = virginica.sepal_length
+plt.hist(virginica1)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Virginica Sepal Length")
+plt.show()
+
+virginica2 = virginica.sepal_width
+plt.hist(virginica2)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Virginica Sepal Width")
+plt.show()
+
+virginica3 = virginica.petal_length
+plt.hist(virginica3)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Virginica Petal Length")
+plt.show()
+
+virginica4 = virginica.petal_width
+plt.hist(virginica4)
+plt.xlabel("Measurements in CM")
+plt.ylabel("Frequency of Occurrence")
+plt.title("Virginica Petal Width")
+plt.show()
+
+# References
+
+# Data science, Startups, Analytics, and Data visualisation, https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+# Matplotlib Tutorial 5 - Histograms,https://www.youtube.com/watch?v=r75BPh1uk38
+# Intro to Data Analysis / Visualization with Python, Matplotlib and Pandas | Matplotlib Tutorial, https://www.youtube.com/watch?v=a9UrKTVEeZA&t=747s
