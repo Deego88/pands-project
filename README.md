@@ -120,9 +120,10 @@ The program analysis.py was the main program created to house the other three pr
 
 ## Results
 
-![Histogram Output](https://github.com/Deego88/pands-project/blob/master/Iris%20Histogram%20Output.PNG)
+![Histogram Output](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Iris%20Histogram%20Output.PNG)
 
-![Scatter Pair Plot Output](https://github.com/Deego88/pands-project/blob/master/Iris%20Scatter%20Pair%20Plot%20Output.png)
+
+![Scatter Pair Plot Output](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Iris%20Scatter%20Pair%20Plot%20Output.png)
 
 The seaborn plot "pairplot", shows the bivariate relation between each pair of features. Bivariate analysis can be helpful in testing the simple hypotheses of association between variables.
 
@@ -149,7 +150,7 @@ From this data analysis we can make various observations. For example, if we con
 10. Aggregations, Min, Max, and Everything In Between,https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html
 11. Box plot and Histogram exploration on Iris data, https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/.
 12. Matplotlib Histogram, https://pythonspot.com/matplotlib-histogram/
-13. seaborn.scatterplot, https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+13. Seaborn.scatterplot, https://seaborn.pydata.org/generated/seaborn.scatterplot.html
 
 
 
