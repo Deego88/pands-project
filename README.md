@@ -92,6 +92,27 @@ The python program analysis.py does the following:
  3. matplotlib- is a plotting library and allows for the production of graphs, plots and charts. 
  4. seaborn- is a Python data visualisation library based on matplotlib, it provides a high-level interface for graphics.
  
+ 
+ ## Program Code Explained 
+  
+ Three separate python codes were coded to form the analysis.py program, they are explained as follows:
+ 
+1.	The program “summary.py” was coded up to achieve the first project deliverable of creating an output a summary of each variable to a single text file. 
+First the code opened the summary.txt file with the “a” append function. F.write was used to append the description of the Irish data set to the summary.txt file, by utilising the describe () function.  Finally, the string text was appended to the end of the summary.txt file.
+
+![]
+
+2.	The program Hist.py was created coded to achieve the second deliverable fo the project of saving a histogram of each variable to png files.  
+In order to create an individual histogram for each variable it was first necessary to separate the exact variables required. To select the relevant column and row to capture the correct data the .loc function was used. The variables setosa, versicolor and verginica were created which contained only their species rows of data. The data of each variable was then further narrowed by selecting only the specific measurement variable eg Sepal Length, Sepal Width etc. This was done by creating four new variables; setosa1, setosa2, setosa3 and setosa4 where each variable plotted a histogram for the four measurements contained in the Irish data set. This code was then copied and reapplied for the versicolor and virginica species. The plt.savefig() was used to save the histogram files to png files. 
+
+![]
+
+3.	Scatter.py was coded to achieved the third deliverable of the project to output a scatter plot of each pair of variables. The library seaborn was imported and used. Sns.pairpolt() function was used to pair off the variables in pairs. 
+
+![]
+
+The program analysis.py was the main program created to house the other three programs. hist.py, summary.py and scatter.py were all copied and pasted into analysis.py to form one single piece of code that achieves all three project deliverables. Analysis.py was then ran as a single piece of code and minor adjustments were made. 
+
 
 ## Results
 
