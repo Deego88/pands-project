@@ -6,11 +6,11 @@
 
 ## [Introduction/Background](https://github.com/Deego88/pands-project/blob/master/README.md#introduction-1)
 
-## [Problem Statement](https://github.com/Deego88/pands-project/blob/master/README.md#problemstatement) 
+## [Problem Statement](https://github.com/Deego88/pands-project#problem-statement-1) 
 
-## [User Guide](https://github.com/Deego88/pands-project/blob/master/README.md#user-guide) 
+## [User Guide](https://github.com/Deego88/pands-project#user-guide-1)  
 
-## [Program Code Explained](https://github.com/Deego88/pands-project#program-code-explained)
+## [Program Code Explained](https://github.com/Deego88/pands-project#program-code-explained-1) 
 
 ## [Libraries](https://github.com/Deego88/pands-project/blob/master/README.md#libraries-1)
 
