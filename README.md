@@ -8,7 +8,7 @@
 
 ## [Problem Statement](https://github.com/Deego88/pands-project/blob/master/README.md#problemstatement) 
 
-## [User Guide]() 
+## [User Guide](https://github.com/Deego88/pands-project/blob/master/README.md#user-guide) 
 
 ## [Libraries](https://github.com/Deego88/pands-project/blob/master/README.md#libraries-1)
 
