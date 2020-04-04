@@ -4,9 +4,11 @@
 
 ## Table of Contents
 
-## [Introduction](https://github.com/Deego88/pands-project/blob/master/README.md#introduction-1)
+## [Introduction/Background](https://github.com/Deego88/pands-project/blob/master/README.md#introduction-1)
 
 ## [Problem Statement](https://github.com/Deego88/pands-project/blob/master/README.md#problemstatement) 
+
+## [User Guide]() 
 
 ## [Libraries](https://github.com/Deego88/pands-project/blob/master/README.md#libraries-1)
 
@@ -17,7 +19,7 @@
 ## [References](https://github.com/Deego88/pands-project/blob/master/README.md#references-1)
   
   
-## Introduction
+## Introduction/Background
   
 The purpose of this project is to conduct an exploratory data analysis of the Iris data set. This project forms part of the Programing and Scripting module assessment for GMITs Data Analytics higher Diploma course. The full set of project deliverables, instructions and grading criteria can be found [here.](https://github.com/Deego88/pands-project/blob/master/Pands%20Project.pdf)
 
@@ -57,8 +59,31 @@ This project will conduct an analysis of the Iris data set. As part of this anal
   
   - outputs a scatter plot of each pair of variables.
 
+## User Guide 
+This section will explain everything the user requires to know about downloading and using the files contained in the repository.
 
-## Libraries
+### How to Download
+In order to download all the flies to a zip folder; navigate to relevant GitHub repository at:  
+https://github.com/Deego88/pands-project
+1.	Click on the green “clone or download” button on the right side of your screen.
+2.	Click on “download ZIP” and save the ZIP to the desired location on your computer. 
+3.	Move to the ZIP files location and extract the compressed (.zip) file to your computer. 
+
+### Running the Program 
+This program has been written by Python 3.7.1 and consequently the user will require a version of Python not later than Python 3.7. It is recommended that the user download the Anaconda distribution of Python 3.7, and to ensure that only official verified copies are downloaded. Furthermore, this program requires certain libraries to be installed on Python which are explained later. Once the ZIP has been downloaded and extracted the user can run the program. In order to run the program from the command line:
+
+1.	Run the command line prompt, (commander is recommended)
+2.	Use the change directory (cd) command to navigate to the correct folder 
+3.	Run the program by typing **python ProgramsNameHere.py**
+
+The python program analysis.py does the following:
+1.	Reads in the Iris data set CSV file for analysis.
+2.	Outputs a summary of each variable in the Iris data set to a text file called summary.txt.
+3.	Saves an individual Histogram of each variable to png files.
+4.	Produces a scatter pair plot for each variable. 
+
+
+### Libraries
 
  The following Python libraries are used to conduct the data analysis of the Iris data set:
  
@@ -67,9 +92,6 @@ This project will conduct an analysis of the Iris data set. As part of this anal
  3. matplotlib- is a plotting library and allows for the production of graphs, plots and charts. 
  4. seaborn- is a Python data visualisation library based on matplotlib, it provides a high-level interface for graphics.
  
-## Getting Started
-
-In order to conduct an effective analysis of the the Iris data set you must have the relevant libraries installed as listed above. The Iris data set must be in a CSV type flie format and located in the same directory as the python code. Please ensure that you have the origional version of the Iris data set, otherwise some data cleaning may be required.   
 
 ## Results
 
