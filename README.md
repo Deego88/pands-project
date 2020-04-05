@@ -141,7 +141,7 @@ The seaborn plot "pairplot", shows the bivariate relation between each pair of f
 Based on the observations obtained in the scatter plot and histogram a testing model was built in order to test the species type based off the variable measurements. This simple model asks the user to input the three distinct measurements for analysis. Essentially the input runs though conditional statements. First, the input is narrowed down to identify if the species is a setosa, this is because the setosa is the most easily identified species type. The code searches for the lower end values it makes this identification. Second the code filters for the versicolor species by searching for the higher end variable values. Finally, anything in between or outside is likely to be the verginica, Based from the observations it is apparent that there was a cross over between verginica and versicolor, therefore the output states “likely”, this is not the case for the setosa as the variable measurements are more clearly defined.   
 
 	 
-![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Species%20Testing%20Model.PNG)
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Species%20Testing%20Model%201.PNG)
 
 
 
