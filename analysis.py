@@ -153,7 +153,7 @@ plt.show()
 
 # Third output required for project- A scatter plot of the output of the variables 
 sns.set_style("darkgrid")
-sns.pairplot(iris, hue="species", height=4) #hue distinguished by species
+sns.pairplot(iris, hue="species", height=2) #hue distinguished by species
 plt.show()
 
 

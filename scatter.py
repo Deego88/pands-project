@@ -7,5 +7,11 @@ import matplotlib.pyplot as plt
 iris = pd.read_csv("iris.csv")
 
 sns.set_style("darkgrid")
-sns.pairplot(iris, hue="species", height=4) #hue distinguished by species
+sns.pairplot(iris, hue="species", height=2, markers= ["o","s", "D"]) #hue distinguished by species
 plt.show()
+
+# Fit a linear regression line to the scatter plots
+sns.pairplot(iris, kind="reg")
+plt.show()
+#References
+#1.seaborn.pairplot ,https://seaborn.pydata.org/generated/seaborn.pairplot.html
