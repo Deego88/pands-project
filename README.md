@@ -120,6 +120,14 @@ The program analysis.py was the main program created to house the other three pr
 
 ## Results
 
+With the scatter plots it is possible to analyse the interaction between certain pairs. The visualisation of data in this way enables the user to visually identify correlations in the data set. This is highly useful as and demonstrates the power of python in that a small piece of code can display large amounts of data in a highly readily and user-friendly format. 
+
+The scatter plot used to illustrate the Iris data is the scatter pair plot. On the x-axis and y-axis, the four measurement variables reside. The output prints 16 diagrams to the screen, 4 diagrams compare only one variable and consequently it prints a distribution graph. The other 12 diagrams compare each of the four variables. The data points of the scatter plots are distinguishable by colour and shape for clarity purposes. 
+
+From the initial observation of the data it is quite apparent that the setosa is highly distinguishable from the virginica and versicolor species. The scatter plot enables the user to readily identify what unique characteristics help identify the species. It is also apparent that the virginica data points tend to favour the opposite end of the graphs in reference to the setosa. Furthermore, the versicolor seems to fit in the middle for the most part or overlap the versicolor in parts. 
+
+
+
 ![Histogram Output](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Iris%20Histogram%20Output.PNG)
 
 
@@ -127,14 +135,13 @@ The program analysis.py was the main program created to house the other three pr
 
 The seaborn plot "pairplot", shows the bivariate relation between each pair of features. Bivariate analysis can be helpful in testing the simple hypotheses of association between variables.
 
-##
 
-##Testing Model
+## Species Testing Model
 
 Based on the observations obtained in the scatter plot and histogram a testing model was built in order to test the species type based off the variable measurements. This simple model asks the user to input the three distinct measurements for analysis. Essentially the input runs though conditional statements. First, the input is narrowed down to identify if the species is a setosa, this is because the setosa is the most easily identified species type. The code searches for the lower end values it makes this identification. Second the code filters for the versicolor species by searching for the higher end variable values. Finally, anything in between or outside is likely to be the verginica, Based from the observations it is apparent that there was a cross over between verginica and versicolor, therefore the output states “likely”, this is not the case for the setosa as the variable measurements are more clearly defined.   
 
 	 
-![]()
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Species%20Testing%20Model.PNG)
 
 
 
