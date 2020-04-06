@@ -151,7 +151,7 @@ By looking at the scatter plot we are to see that the three most desirable varia
 2.	Petal width
 3.	Sepal length
 
-Petal length is clearly the most distinguishable variable which allows for the characterization of species type, that is why it was chosen in the test model. The petal length distribution curve does not overlap the other two species making this variable a unique measurement variable. In order to refine the testing model a probability density plot was used to help visualize overlaps in the data. 
+Petal length is clearly the most distinguishable variable which allows for the characterization of species type, that is why it was chosen in the test model. The petal length distribution curve does not overlap the other two species making this variable a unique measurement variable. In order to refine the testing model a probability density plot was used to help visualize overlaps in the data. The Code can be found [here](https://github.com/Deego88/pands-project/blob/master/CDF.py)
 
 Each variable is displayed on the x-axis and its corresponding kernel density plot on the y-axis.  
 For the petal length density plot of the setosa we can observe that 1.9 cm is the largest measurement observed in petal length, and there is no overlap. Where overlap occurs between the versicolor and virginica species (petal length) the crossover point between distributions curves was approximately 4.8cm. Therefore 1.9 cm and 4.8cm are used as a controlling parameter in the testing model. 
