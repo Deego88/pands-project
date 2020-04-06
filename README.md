@@ -138,10 +138,32 @@ The seaborn plot "pairplot", shows the bivariate relation between each pair of f
 
 ## Species Testing Model
 
-Based on the observations obtained in the scatter plot and histogram a testing model was built in order to test the species type based off the variable measurements. This simple model asks the user to input the three distinct measurements for analysis. Essentially the input runs though conditional statements. First, the input is narrowed down to identify if the species is a setosa, this is because the setosa is the most easily identified species type. The code searches for the lower end values it makes this identification. Second the code filters for the versicolor species by searching for the higher end variable values. Finally, anything in between or outside is likely to be the verginica, Based from the observations it is apparent that there was a cross over between verginica and versicolor, therefore the output states “likely”, this is not the case for the setosa as the variable measurements are more clearly defined.   
+Based on the observations obtained in the scatter plot and histogram a testing model was built in order to test the species type based off the variable measurements. This simple model asks the user to input the sepal lenght for analysis. Essentially the input runs though conditional statements. First, the input is narrowed down to identify if the species is a setosa. This is because the setosa is the most easily identified species type as no setosa is >1.9cm in petal length. Second, the code filters for the versicolor species by taking two measurements:
 
-	 
-![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Species%20Testing%20Model%201.PNG)
+ 1. The median point observed (4.8cm) in the distribution graphs of sepal length between versicolor and virginica.
+ 2. The 1.9cm unique to setosa only.
+ 
+Lastly, anything in outside the above is likely to be the virginica, Based from the observations it is apparent that there was a cross over between verginica and versicolor, therefore the output states “likely”, this is not the case for the setosa as the variable measurements are more clearly defined.   
+
+Increasing accuracy of test model
+By looking at the scatter plot we are to see that the three most desirable variables to measure in order of preference are: 
+1.	Petal length
+2.	Petal width
+3.	Sepal length
+
+Petal length is clearly the most distinguishable variable which allows for the characterization of species type, that is why it was chosen in the test model. The petal length distribution curve does not overlap the other two species making this variable a unique measurement variable. In order to refine the testing model a probability density plot was used to help visualize overlaps in the data. 
+
+Each variable is displayed on the x-axis and its corresponding kernel density plot on the y-axis.  
+For the petal length density plot of the setosa we can observe that 1.9 cm is the largest measurement observed in petal length, and there is no overlap. Where overlap occurs between the versicolor and virginica species (petal length) the crossover point between distributions curves was approximately 4.8cm. Therefore 1.9 cm and 4.8cm are used as a controlling parameter in the testing model. 
+
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/CDF_Petal_length.png)
+
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/CDF_Petal_Width.png)
+
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/CDF_Sepal_Length.png)
+
+
+![](https://github.com/Deego88/pands-project/blob/master/Images%20for%20README/Species%20Testing%20Model%20Completed.PNG)
 
 
 
@@ -169,6 +191,7 @@ From this data analysis we can make various observations. For example, if we con
 11. Box plot and Histogram exploration on Iris data, https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/.
 12. Matplotlib Histogram, https://pythonspot.com/matplotlib-histogram/
 13. Seaborn.scatterplot, https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+14. Exploratory Data Analysis: Uni-variate analysis of Iris Data set, https://medium.com/analytics-vidhya/exploratory-data-analysis-uni-variate-analysis-of-iris-data-set-690c87a5cd40
 
 
 
